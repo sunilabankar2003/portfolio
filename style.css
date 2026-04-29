@@ -184,7 +184,7 @@ button.btn {
 }
 
 .hero-description {
-  max-width: 600px;
+  max-width: 650px;
   margin: 0 auto 2rem;
   color: var(--text-secondary);
 }
