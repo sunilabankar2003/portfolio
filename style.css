@@ -39,7 +39,7 @@ a {
 }
 
 section {
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 
 .container {
@@ -533,6 +533,9 @@ textarea:focus {
 
 /* --- RESPONSIVE: TABLET --- */
 @media (max-width: 992px) {
+  section {
+    padding: 3rem 0;
+  }
   .about-content,
   .contact-content {
     gap: 2rem;
@@ -541,6 +544,9 @@ textarea:focus {
 
 /* --- RESPONSIVE: MOBILE --- */
 @media (max-width: 768px) {
+  section {
+    padding: 3rem 0;
+  }
   .menu-toggle {
     display: flex;
   }
