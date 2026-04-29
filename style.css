@@ -496,9 +496,10 @@ textarea:focus {
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* 🔥 center horizontally */
   align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column; /* stack vertically */
+  text-align: center;
   gap: 1rem;
 }
 
